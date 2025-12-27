@@ -1,0 +1,7 @@
+Comandos:
+g++ -o main.exe main.cpp
+
+Ejemplo:
+.\main.exe
+Nombre de archivo: archivo.lox
+Nombre de archivo: lox.txt

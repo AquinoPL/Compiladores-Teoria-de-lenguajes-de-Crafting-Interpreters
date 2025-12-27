@@ -1,0 +1,19 @@
+class Node {
+    init(data) {
+    this.data = data;
+    this.next = nil;
+    }
+}
+class LinkeList {
+    init() {
+    this.head= nil;
+    }
+    insert(value) {
+    var new_node = Node (value);
+    new_node.next = this.head;
+    this.head = new_node;
+    }
+}
+var instancia = LinkeList(); 
+instancia.insert(10);
+print "fin";

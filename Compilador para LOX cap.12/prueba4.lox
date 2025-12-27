@@ -1,0 +1,13 @@
+class Dog {
+    ladrar() {
+        print "Woof!";
+    }
+    
+    saludar() {
+        print "Hello!";
+    }
+}
+
+var dog = Dog();
+dog.ladrar(); // Salida esperada: "Woof!"
+dog.saludar(); // Salida esperada: "Hello!"

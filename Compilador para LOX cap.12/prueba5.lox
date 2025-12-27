@@ -1,0 +1,15 @@
+class Animal {
+    accion() {
+        print "El animal hace un sonido:";
+    }
+}
+
+class Dog < Animal {
+    ladrido() {
+        print "Woof!";
+    }
+}
+
+var dog = Dog();
+dog.accion();
+dog.ladrido();

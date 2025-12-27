@@ -1,0 +1,5 @@
+Comandos:
+g++ -o main.exe main.cpp
+
+Ejemplo:
+.\main.exe prueba1.lox

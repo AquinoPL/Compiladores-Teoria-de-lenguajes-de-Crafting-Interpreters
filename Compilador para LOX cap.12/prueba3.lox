@@ -1,0 +1,7 @@
+class Cookies { 
+sonido() { 
+    print "niam niam niam";
+    } 
+} 
+var cook = Cookies(); 
+cook.sonido();
